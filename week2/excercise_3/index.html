@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML semantic</title>
+</head>
+<body>
+  <h1>Pofile</h1> <br>
+  <h3>Fill in your details here.</h3><br>
+  <br>
+  <br>
+  <form action="#" method="post" name="">
+    <fieldset name="personal details">
+
+      <legend>Personal Details</legend>
+
+      <label for="title">Title</label>
+      <input type="text" id="title" placeholder="Your Title(Dr.,Mr.Mrs.)">
+      <br><br>
+      
+      <label for="fn">FirstName</label>
+      <input type="text" id="fn" placeholder="Your First Name">
+      <br><br>
+
+      <label for="ln">LastName</label>
+      <input type="text" id="ln" placeholder="Your Last Name">
+      <br><br>
+
+      <label for="gender">Gender</label>
+      <input type="radio" id="m" name="genders" value="m"><label>M</label>
+      <input type="radio" name="genders" id="f" value="f"><label>F</label>
+      <br><br>
+
+      <label for="lang">Language</label>
+      <input type="radio" name="lan" id="de" value="de"><label>DE</label>
+      <input type="radio" name="lan" id="fr" value="fr"><label>FR</label>
+      <input type="radio" name="lan" id="it" value="it"><label>IT</label>
+    </fieldset>
+
+    <br><br>
+
+    <fieldset>
+      <legend name="contact_details">Contact Details</legend>
+
+      <label for="tel">Telephone </label>
+      <input type="tel" id="tel">
+      <br><br>
+
+      <label for="mo">Mobile</label>
+      <input type="tel" id="mo" placeholder="optional">
+      <br><br>
+
+      <label for="ha">Hauptnumber</label>
+      <input type="tel" id="ha" placeholder="optional">
+      <br><br>
+
+      <label for="fax">Fax</label>
+      <input type="tel" id="fax" placeholder="optional">
+      <br><br>
+
+      <label for="mail1">Mail 1</label>
+      <input type="email" id="mail1">
+      <br><br>
+
+      <label for="mail2">Mail 2</label>
+      <input type="email" id="mail2" placeholder="optional"> 
+    </fieldset>
+
+    <br><br>
+
+    <fieldset>
+      <legend name="Address Details">Address Details</legend>
+
+      <label for="co">Company</label>
+      <input type="text" id="co" placeholder="optional">
+      <br><br>
+
+      <label for="co1">Zusatz Firma</label>
+      <input type="text" id="col1" placeholder="optional">
+      <br><br>
+
+      <label for="home">Homepage</label>
+      <input type="text" id="home" placeholder="Optional">
+      <br><br>
+
+      <label for="add">Address / House Nr</label>
+      <input type="text" id="add1" placeholder="Musterstrasse">
+      <input type="number" id="add2" placeholder="33">
+      <br><br>
+
+      <label for="add1">Zusatz Address</label>
+      <input type="text" id="add1" placeholder="optional">
+      <br><br>
+
+      <label for="pf">Post</label>
+      <input type="text" id="pf" placeholder="optional">
+      <br><br>
+
+      <label for="st">PLZ / Ort</label>
+      <input type="number" id="st" placeholder="8800">
+      <input type="text" id="place" placeholder="Musterstadt">
+      <br><br>
+
+      <label for="state">Kanton / Land</label>
+      <input type="text" id="ZH" placeholder="ZH">
+      <input type="text" id="Schweiz" placeholder="Schweiz">
+    </fieldset>
+
+  </form>
+
+  <button type="submit">Submit</button>
+
+</body>
+</html>
