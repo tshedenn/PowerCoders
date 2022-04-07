@@ -1,0 +1,30 @@
+img{
+  /* padding: 5px; */
+  /* border: .35rem solid red; */
+  /* margin: 5px; */
+  /* display: block; */
+  /* margin: 0 auto; */
+}
+/* body{
+  margin: 0;
+} */
+
+html{
+  border: .2rem solid red;
+  margin: 2rem;
+  padding: 2rem;
+  
+ 
+}
+body{
+  border: .2rem solid black;
+  margin: 2rem;
+  padding: 2rem;
+}
+img{
+  border: .2rem dotted purple;
+  margin: 2rem;
+  padding: 2rem;
+}
+
+
