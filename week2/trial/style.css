@@ -1,0 +1,17 @@
+body
+{
+  background-color:bisque;
+  height: 100vh;
+  margin:0;
+}
+
+img
+{
+height:300px;
+width: 300px;
+border: .2rem dotted red;
+object-fit: cover;
+border-radius: 75%;
+display: block;
+margin: 0 auto;
+}
