@@ -1,0 +1,26 @@
+/* img{
+  border: .2rem red solid;
+  padding: 2rem;
+  margin: auto;
+  box-sizing: border-box;
+  height: 400px;
+  width: 400px;
+  
+  //this is an ex for box-sizing
+
+} */
+.centered{
+  position: absolute;
+  left:50%;
+  top: 50%;
+  transform:translateX(-50%) translateY(-50%);
+}
+div{
+  border: 1rem blue dotted;
+  padding: 2rem;
+}
+ 
+img{
+  border: 1rem red solid;
+  padding: 2rem;
+}
