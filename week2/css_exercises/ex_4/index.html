@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    ul{
+      display: grid;
+      grid-template-columns:1fr 1fr .5fr 2fr 1fr;
+      list-style-type: none;
+      text-align: center;
+    }
+
+    ul li a{
+      text-decoration: none;
+    }
+
+    ul li{
+      background-color: azure;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bold;
+      font-style: 32px;
+      
+    }
+    .a{
+      grid-column-start: 1;
+      grid-column-end: 2;
+    }
+   .b{
+      grid-column-start: 2;
+      grid-column-end: 3;
+    }
+    .b{
+      grid-column-start: 2;
+      grid-column-end: 3;
+    }
+    
+  </style>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li class="a"><a href="#">Home</a></li>
+      <li class="b"><a href="#">About Projects</a></li>
+      <li class="c"><a href="#">Contact</a></li>
+      <li class="d"><a href="#">About our company</a></li>
+      <li class="e"><a href="#">Blog</a></li>
+    </ul>
+  </nav>
+</body>
+</html>

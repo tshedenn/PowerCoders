@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+  
+    ul{
+      /* border: .2rem solid red; */
+      display: flex;
+      justify-content:space-around;
+      list-style-type: none;
+      /* background-color: darkseagreen;  */
+      text-align: center;
+      padding: 0;
+      }
+
+    li a{
+      text-decoration: none;
+    }
+
+    nav ul li{
+      padding: .5rem;
+      margin: .2rem;
+      background-color:antiquewhite;
+      
+
+      /* justify-content: center;
+      align-items: center; */
+    }
+    .text{
+      flex-grow: 0;
+      /* background-color: aqua; */
+      
+    }
+    .longer_text{
+      flex-grow: 0;
+      
+    }
+    .txt{
+      flex-grow: 0;
+      
+    }
+    .stretch{
+      flex-grow: 1;
+      
+    }
+    .fixed_width{
+      flex-grow: 0;
+      
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li class="text"><a href="#">Home</a></li>
+      <li class="longer_text"><a href="#">About Projects</a></li>
+      <li class="txt"><a href="#">Contact</a></li>
+      <li class="stretch"><a href="#">About our company</a></li>
+      <li class="fixed_width"><a href="#">Blog</a></li>
+    </ul>
+  </nav>
+</body>
+</html>
