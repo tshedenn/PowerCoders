@@ -1,0 +1,86 @@
+Ex.1
+
+          ..START..
+
+1. Asking the user to enter input.
+2. User entering the input.
+3. Check the input if it is valid type. 
+	a. If the user input is not valid then ask user to enter the input again.
+4. Received the input from the user as numbers.
+5. Sort the numbers. ( Note :array.sort(a,b))
+6. Asking the user if he/she want to still add a number:
+	if yes: then go to first step 
+7. Print the sorted numbers.
+8. Numbers are displayed on the screen.
+
+Ex_2.
+
+          ..START..
+
+1. Asking the user to enter input.
+2. User entering the input.
+3. Check the input if it is number?. 
+	a. If the user input is not valid then ask user to enter the input again.
+4. Received the input from the user as numbers.
+5. Adding the numbers.
+5. Asking the user if he/she want to still add a number:
+	if yes: then go to first step 
+7. Print the result.
+8. Result is displayed on the screen.
+
+
+
+Ex_3.
+
+          ..START..
+
+1. Asking the user to enter input.
+2. User entering the input.
+3. Check the input if it is number?. 
+	a. If the user input is not valid then ask user to enter the input again.
+4. Received the input from the user as numbers.
+5. Assign the number to variable A.
+6. Ask user to enter the other number.
+7. Repeate step 2-4.
+8. Assign this number to variable B.
+9. Comparing these two variables.
+10. Subtract the smaller number from the bigger one.
+11. Print the result.
+12. Result is displayed on the screen.
+
+
+Ex_4.
+
+          ..START..
+
+1. Asking the user to enter input.
+2. User entering the input.
+3. Check the input if it is number,
+	a. Check if the user input type is number? if yes: Go to step 4.
+					     if No: Ask user to enter the input again.
+4. Received the input from the user as a number.
+5. Assign the number to variable A .
+6. Ask user to enter the other number.
+
+7. User entering the input.
+8. Check the input if it is number,
+	a. Check if the user input type is number? if yes: Go to step 4.
+					     if no: Ask user to enter the input again.
+9. Received the input from the user as a number.
+
+10. Assign this number to variable B.
+11. Asking the user to choose math operation.
+12.If the user chooses "ADD": then add two numbers and assign it to the "result" variable.
+13. If the user chooses "SUBSTRACT": then compare the numbers and substract the small number from the bigger one and assign it to the "result" variable, if the numbers are equal substract variable A from variable B.
+14. Print the result.
+15. Result is displayed on the screen.
+
+Ex_5.
+
+                   ...START...
+
+1. Ask user to enter the year : Year should be between 0 - 2030.
+2. Ask user to enter the month : Month should be between 1-12
+3. Ask user to enter the date : Date should be from 1-31 but 
+					
+
