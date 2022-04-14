@@ -51,20 +51,20 @@ img{
     
     /* grid-template-rows: 1fr 1fr; */
   }
-  main{
+  /* main{
     min-width:300px;
     margin: 0;
     font-size: 1.2rem;
     font-family: Arial, Helvetica, sans-serif;
     /* max-width: 800px; */
     /* width:200%; */
-  }
-  body{
+  /* }
+  /* body{
     margin: 3rem 1rem;
-    padding: 0;
+    padding: 0; 
     
 
-  }
+  } */
   
 }
 
