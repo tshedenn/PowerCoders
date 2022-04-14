@@ -3,32 +3,86 @@ Darkness Phoebia Ex.
 Constraints.
 
 1. Only one torch.
-2. Tunnel is narrow so only 2 persons go through. 
-3. The torch last only 12 minutes.
+2. Tunnel is narrow so only 2 persons can go through. 
+3. The torch lasts only 12 minutes.
 4. Afraid of the dark.
-5. Moving at the seed of the slower one.
+5. Moving at the speed of the slower one.
 
 
 Solution:
 
-1. First Dad and Mama go, it takes 2 minutes.
+1. First Dad and Mama go, takes 2 minutes.
 2. Dad comes back,takes 1 min.
 3. Son and the daughter go, takes 5min.
 4. Mama comes back, takes 2min.
-5. Dad and mama go, takes 2min.
+5. Dad and mama go, takes 2min, in total time taken is 12min.
 
-Conclusion.
-
-So, total time takes 12min.
+Conclusion: Slowest couple goes together and the fastest two goes together, and the fastest one always takes the return route to return the torch.
 
 
-...Start..
 
-Dad + Mama = 2min;
-return Dad = 1min;
-change the torch holder to son.
-Son + Daughter = 5min;
-change the torch holder to mama.
-return Mama = 2min;
-Dad + Mama =2min;
-total 12min;
+1. Compare time of all 4 people
+2. see who is the slowest and fastest.
+3. make them couple as fastest and slowest
+4. first send the fastest couple to the other side.
+5. from the fastest couple send back the fastest one to the other side to hand over the torch.
+6. now send the slowest couple.
+7. now from three of them send back the fastest one with torch,
+8. now we have the fastest couple in the starting point and the slowest on the other side.
+9. now send the fastest couple .
+10. now see if everyone is at the other side.
+11. if so you are successful.
+
+Steps:
+
+ 1. INITIALIZE totalTorchTime as 12min  
+ 2. INITIALIZE totalMovingPeople as 2 persons
+ 3. INITIALIZE totalPeopleTomove 4 people
+ 4. INITIALIZE fatherTime as 1min
+ 5. INITIALIZE mamaTime as 2min
+ 6. INITIALIZE sonTime as 4min
+ 7. INITIALIZE daughterTime as 5min
+ 8. INITIALIZE trackTime as 0min
+ 9. INITIALIZE toCheck as 0
+ 10.INITIALIZE maxTime
+ 11.INITIALIZE minTime 
+ 12.INITIALIZE fastestCouple
+ 13.INITIALIZE slowestCouple
+ 14.INITIALIZE sortedTime
+ 
+
+ sortedTime = sortTimeOrder(fatherTime,mamaTime,sonTime,daughterTime) 
+ 
+
+
+..START..
+
+1. send the 2 fastest 
+   totalPeopleTomove - 2
+   trackTime = totalTorchTime - (slowest person time)
+   send back 1 fastest
+   totalPeopleTomove + 1 
+   trackTime = totalTorchTime - (return person time)
+   check if totalPeopleTomove > = 0;
+  send 2 slowest 
+  totalPeopleTomove = 1
+  trackTime = totalTorchTime - (slowest person time)
+  send back the fastest
+  totalPeopleTomove + 1
+  trackTime = totalTorchTime - (return person time)
+  if totalPeopleTomove > = 0
+  send fastest 
+  trackTime = totalTorchTime - (slowest person time)
+  totalPeopleTomove = 0
+  if totalPeopleTomove >= 0 && totalTorchTime == 0
+  print "your solution failed"
+  else
+  print(yes you solved.)
+
+
+
+
+
+
+ 
+ 
