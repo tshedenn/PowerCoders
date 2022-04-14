@@ -1,0 +1,34 @@
+Darkness Phoebia Ex.
+
+Constraints.
+
+1. Only one torch.
+2. Tunnel is narrow so only 2 persons go through. 
+3. The torch last only 12 minutes.
+4. Afraid of the dark.
+5. Moving at the seed of the slower one.
+
+
+Solution:
+
+1. First Dad and Mama go, it takes 2 minutes.
+2. Dad comes back,takes 1 min.
+3. Son and the daughter go, takes 5min.
+4. Mama comes back, takes 2min.
+5. Dad and mama go, takes 2min.
+
+Conclusion.
+
+So, total time takes 12min.
+
+
+...Start..
+
+Dad + Mama = 2min;
+return Dad = 1min;
+change the torch holder to son.
+Son + Daughter = 5min;
+change the torch holder to mama.
+return Mama = 2min;
+Dad + Mama =2min;
+total 12min;
