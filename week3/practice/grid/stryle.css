@@ -1,0 +1,48 @@
+body{
+  background-color: azure;
+  box-sizing: border-box;
+
+}
+
+div{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+ 
+}
+img{
+  width:200px;
+  height:200px;
+  
+}
+.a{
+  grid-column-start: 1;
+  grid-column-end: 2;
+  /* grid-row-start: 1;
+  grid-row-end: 2; */
+}
+.b{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  /* grid-row-start: 7;
+  grid-row-end: 8; */
+}
+.c{
+  grid-column-start: 3;
+  grid-column-end: 4;
+  /* grid-row-start: 3;
+  grid-row-end: 4; */
+}
+.d{
+  grid-column-start:4 ;
+  grid-column-end: 5;
+  /* grid-row-start: 6;
+  grid-row-end: 7; */
+}
+.e{
+  grid-column-start: 5;
+  grid-column-end: 6;
+  /* grid-row-start: 6;
+  grid-row-end: 7; */
+}
