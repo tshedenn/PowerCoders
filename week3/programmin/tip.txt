@@ -1,0 +1,6 @@
+Tip Calculator.
+
+Possible Questions:
+
+1. What perccentage of the bill deducted as Tip?
+2.  

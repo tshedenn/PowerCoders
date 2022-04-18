@@ -4,7 +4,7 @@ Constraints:
 
 1. Input limit ( 0 - 9 )
 2. Number should be positive and non-decimal
-3. Convert user input which is in string into   numbers.
+3. Convert user input which is in string into numbers.
 3. Digits seperators be comma.
 4. sorting the digits
 
@@ -23,12 +23,11 @@ solution :
 INITIALIZE num
 INITIALIZE sorted
 INPUT : "Enter numbers"
-if INPUT !=digit {
+num = int(INPUT)
+if num !=digit {
   response to users : "enter only numbers"
 }
-else
-
-num : INPUT
+else~
 when limit reaches 9
 sorted = sort(num)
 
