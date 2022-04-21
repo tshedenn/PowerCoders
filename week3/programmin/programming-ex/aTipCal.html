@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viwport" content="width=device-width,initial-scale=1.0">
+    <title>Tip Calculator</title>
+    <script>
+      let totalBill = "";
+      do {
+        totalBill = parseInt(prompt("Enter Bill Amount: "));
+        const tipPercentage = (5 / 100);
+        let totalTip;
+        let totalPayableBill;
+        if (totalBill > 0) {
+          totalTip = totalBill * tipPercentage;
+          totalPayableBill = Math.ceil(totalBill + totalTip);
+          alert(`Your total bill amount (excluding tip) is ${totalBill}`);
+          alert(`Your total tip of 5% is ${totalTip}`);
+          alert(`Your total payable amount is   ${totalPayableBill}`);
+        }
+        else {
+          alert(`sorry! enter atleast a positive number.`);
+        }
+      } while (isNaN(totalBill.NaN));
+
+    </script>
+  </head>
+
+  <body>
+  </body>
+
+</html>

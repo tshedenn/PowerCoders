@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+      let firstName ="";
+      do {
+        firstName = prompt("Enter your firstname: ");
+        let lastName = prompt("Enter your lastname: ");
+        if (firstName === "") {
+          alert("Firstname field can't be empty ");
+        } else {
+
+          firstName = firstName.toUpperCase();
+          lastName = lastName.toUpperCase();
+
+          alert(`Firstname is ${firstName} Lastname is ${lastName}`);
+          // console.log(firstName);
+
+        }
+      } while (firstName === "");
+
+    </script>
+  </head>
+
+  <body>
+
+  </body>
+
+</html>

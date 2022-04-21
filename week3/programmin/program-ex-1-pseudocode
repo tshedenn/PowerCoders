@@ -1,0 +1,51 @@
+Problem:
+
+Create a program that prompts for your name and prints a greeting using your name.
+" 
+"
+Questions:
+1. first name only? or both first name and last name? 
+==> Both.
+2.  should it accept without any names?
+==>no
+3. can any of the name field be empty?
+==>yes, but atleast one should be filled.
+4. should input accept numbers and special charaters?
+==>no
+2. two different holder to hold firstname and secondname or just one?
+==> firstName as firstname and secondName as secondname.
+3. should ask user to type specific letter case? like upper case or lower case.
+==>any.
+4. should it process to convert to the desired case?
+==>all to uppercase
+5. How to display the name, space in between firstname and second name?, lastname first and the
+ firstname last or vice versa?
+ ==> firstname and then second name and space in between.
+6. How should be the output? desired case (uppercase, lowercase, camel casing and so on..)
+==> dipaly all in uppercase with space in between , firstName first and secondName second.
+7. What should be the greeting message?
+==>Hello
+8. Do you need some special character with the greeting while displaying?
+==>!
+
+
+
+
+Input: Name (Tshering)
+Actual Output:
+Expected Output:Hello! Tshering
+Process: promt user input their firstname and second name. store them in respective variables.
+display user name with a greeting.
+
+Constraints:
+1. string input
+2. 
+6. 
+
+
+Pseudocode:
+1. INITIALIZE name as "";
+3. Promot for "What is your name?"
+4. Display "Hello, " + name
+
+

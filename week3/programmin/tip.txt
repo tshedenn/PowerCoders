@@ -2,5 +2,73 @@ Tip Calculator.
 
 Possible Questions:
 
-1. What perccentage of the bill deducted as Tip?
-2.  
+1. How should it work?
+==> total bill should include tip.
+2. How much percentage should be added as tip? ==> 5%
+3. Will it be all the time same percentage or will it change as per the customer's preference? 
+ (the user allowed to input the tip percentage as per the customer's will?)
+ ==> It should be set to 5% all the time.
+4. Do you want to print total bill and tip seperatly or the total of both together?
+==>yes first the total bill (excluding all others), then total tip and the tip plus total bill equal the gross.
+5. Do you want to convert to as whole number or keep it as decimal?
+==> yes convert to the nearest one. Eg:if it is 13.1 then convert to 13.
+6. Do you want to print percentage?(like how much percentage as a tip).
+==> yes percentage(5%) as tip.
+
+
+
+Constraints:
+
+1. should have atleast a positive digit excluding 0.(can have decimal numbers)
+2. Strings or other characters are not accepted (like "apple", #, @ etc...)
+2. to the lowest the tip should be 5 Rappen, anything lower than 5 Rappen should be converted to 5 Rappen.
+3. convert the decimal number to the nearest whole number in the total payable amount.
+4. should display total bill, total tip and gross total seperatly.
+5. tip percentage is fixed.
+
+
+
+
+Steps:
+ 
+1. Have total bill value
+2. should have tip percentage. (i.e 5%)
+3. total tip is 5% of total bill.
+4. convert the total tip to whole number.
+5. print total bill and tip seperatly and add them and display the total amount to be paid.
+6. should display tip percentage.
+
+
+Test Case:
+
+INPUT: total bill
+Expected result: total bill(without tip)
+               : total tip : total tip of 5%
+               :total payable amount: total bill + total tip.
+Actual result:
+Process: get input of total bill from the user. find out the total tip (i.e total bill * 5%), add total bill and total tip to get the total payable bill,convert the total payable amount if decimal to the whole number. display total bill, total tip and sum of both seperatly.
+
+
+Pseudocode:
+
+aTipCal:
+
+       ...START...
+
+INITIALIZE totalBill as 0;
+PROMPT user totalBill;
+Convert totalBill to a number;
+INITIALIZE tipPercentage as 5/100;
+INITIALIZE totalTip;
+INITIALIZE totalPayableBill as 0;
+
+
+Process :totalTip = totalBill * tipPercentage; 
+         totalPayableBill = totalBill + totalTip;
+Convert totalPayableBill to whole number.
+Display: "Your total bill (without including tip) is " + totalBill;
+       : "Your total tip (5%) is " + totalTip;
+       : "Your total is " + totalPayableBill;
+
+       ...END...
+
