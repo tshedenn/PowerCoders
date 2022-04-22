@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script>
+    let num ="";
+    
+    do {
+
+      num= parseInt(prompt("Enter a number between 0-20"));
+      if(num >= 0 && num <=20 ){
+        if(num % 2 === 0) {
+          console.log(`${num} is even`);
+        }
+        else{
+          console.log(`${num} is odd`);
+        }
+      }
+      else{
+        console.log("Sorry wrong input, input must be numbers (0-20) only. String, special characters or empty input is not accepted, so try again.");
+      }
+      
+    } while(isNaN(num.NaN));
+
+    
+    // here isNaN is a function which checks if it is a number. and when i checck here is num isNaN, it says true until keep my num field empty but as soon as i type in a number then it turn out to be false and so my condition breaks.
+    
+
+    
+    
+
+  </script>
+</head>
+<body>
+  
+</body>
+</html>
