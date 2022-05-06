@@ -1,0 +1,18 @@
+1. Title
+2. Checkmarks
+3. List to to-do
+4. Input for the to do 
+5. Button to add to-do 
+6. Repeating task
+7. Mark as done visibility
+8. Rename and Edit
+9. Deadline/Date and time
+10. Priority/Orders
+
+
+Must have :
+1. Title
+2. List to to-do
+3. Possibility to add new to-do: input and button.
+change order or set Priority of to-dos
+change the status of to-do (open/done-in progress)
