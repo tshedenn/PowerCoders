@@ -3,6 +3,6 @@
 {"employees":[
 
   { "username":"tshering", "password":"abc@123" },
-  { "usernamer":"sonam", "lastName":"cd@123" }
+  { "username":"sonam", "password":"cd@123" }
   ]
 }
