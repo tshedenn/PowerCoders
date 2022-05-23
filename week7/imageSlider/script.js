@@ -17,6 +17,7 @@
 let objData=[];
 let objID=[];
 let img = [];
+var i =0;
 async function toFetchImg(){
 
   let imageFromApi = await fetch('https://jsonplaceholder.typicode.com/photos');
@@ -26,39 +27,51 @@ async function toFetchImg(){
     let jsonData = await imageFromApi.json();
     objData = jsonData[0].url;
     objID = jsonData[0].id;
-    console.log(objData);
-    renderToHtml(objData);
-    
+    //console.log(objData);
+    renderToHtml(objData); 
   }
  }
 toFetchImg();
+let body = document.body;
+let div = document.createElement('div');
+body.append(div);
 
 function renderToHtml(data){
-    let body = document.body;
+    
+    // div.className('image-slider');
+   
     for (let i=0; i<data.length;i++){
       let img = document.createElement('img');
-      body.append(img);
+      div.append(img);
       img.setAttribute('src',objData,);
       img.setAttribute('id',objID); 
-      console.log(img);
-        
+      //console.log(img);  
     }
+}
     
     let previous = document.createElement('button');
-    body.append(previous);
+    div.append(previous);
     previous.innerText = 'Previous';
     let next = document.createElement('button');
-    body.append(next);
+    div.append(next);
     next.innerText = 'Next';
-    next.addEventListener('click',nextBtn('Next'));
-    
-   function nextBtn(direction){
-     if(direction == 'Next'){
-       img[indexed]++;
-     }
-   }
+    // next.addEventListener('click',nextBtn('Next'));
+
+  // function previousBtn(){
+  //   if(i <= 0) i = div.length;
+  // }
+  //  function nextBtn(direction){
+     
+  //    if(direction == 'Next'){
+  //       // img.style.display = 'inline';
+  //       console.log('sucess');
+  //    }
+  //    else{
+  //      console.log('sorry');
+  //    }
+  //  }
   
-  }
+  // }
 
 
 
